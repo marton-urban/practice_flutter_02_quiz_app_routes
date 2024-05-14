@@ -4,7 +4,7 @@ import 'question.dart';
 import 'answer.dart';
 
 class Quiz extends StatelessWidget {
-  const Quiz(this._infos, {Key? key}) : super(key: key);
+  const Quiz(this._infos, {super.key});
 
   final Map<String, int> _infos;
 

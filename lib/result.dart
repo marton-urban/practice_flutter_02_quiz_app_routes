@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
-  const Result(this._infos, {Key? key}) : super(key: key);
+  const Result(this._infos, {super.key});
 
   final Map<String, int> _infos;
 

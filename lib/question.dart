@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Question extends StatelessWidget {
-  const Question(this.questionText, {Key? key}) : super(key: key);
+  const Question(this.questionText, {super.key});
 
   final String questionText;
 

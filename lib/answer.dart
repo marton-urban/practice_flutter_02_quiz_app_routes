@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'quiz.dart';
 
 class Answer extends StatelessWidget {
-  const Answer(this.answer, this._infos, {Key? key}) : super(key: key);
+  const Answer(this.answer, this._infos, {super.key});
 
   final Map<String, Object> answer;
   final Map<String, int> _infos;
